@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .post {
+        background-color: lightskyblue;
+        padding: 1px px;
+        margin: 10px 5px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="loadData()">Load Data</button>
+    <button onclick="loadData()">Load Data 2</button>
+    <button onclick="loadUsers()">Load User</button>
+    <button onclick="loadUsers2()">Load User 2</button>
+    <button onclick="post()">Load Post</button>
+
+    <section>
+      <div class="users-container">
+        <ul id="users-list"></ul>
+      </div>
+    </section>
+
+    <!-- Display Post -->
+    <section>
+      <h3>All Post are here</h3>
+      <div id="posts-container"></div>
+    </section>
+  </body>
+  <script src="./fetch.js"></script>
+</html>
